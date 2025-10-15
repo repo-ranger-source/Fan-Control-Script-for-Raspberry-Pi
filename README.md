@@ -19,6 +19,7 @@ This Python script is designed for **Raspberry Pi** systems running Linux with G
    git clone https://github.com/repo-ranger-source/Fan-Control-Script-for-Raspberry-Pi.git
    cd Fan-Control-Script-for-Raspberry-Pi
 3. Run the script with root privileges:
+   ```bash
    sudo python3 fan_control.py
 
 
