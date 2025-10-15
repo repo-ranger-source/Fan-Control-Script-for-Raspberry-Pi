@@ -21,9 +21,7 @@ This Python script is designed for **Raspberry Pi** systems running Linux with G
 3. Run the script with root privileges:
    ```bash
    sudo python3 fan_control.py
-
-
-
+   
 ## GPIO Pin Configuration!
 The GPIO pins used in this script — GPIO 18 and GPIO 19 — are hardcoded in the following line:
 FAN_PINS = [18, 19]
