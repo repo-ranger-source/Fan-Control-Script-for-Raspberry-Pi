@@ -12,8 +12,16 @@ This Python script is designed for **Raspberry Pi** systems running Linux with G
   pip install gpiod
 
 ## How to Use:
-git clone https://github.com/repo-ranger-source/Fan-Control-Script-for-Raspberry-Pi.git
-cd Fan-Control-Script-for-Raspberry-Pi
+
+1. Connect your fans to GPIO pins 18 and 19.
+2. Clone this repository and navigate into the project folder:
+   ```bash
+   git clone https://github.com/repo-ranger-source/Fan-Control-Script-for-Raspberry-Pi.git
+   cd Fan-Control-Script-for-Raspberry-Pi
+3. Run the script with root privileges:
+   sudo python3 fan_control.py
+
+
 
 ## GPIO Pin Configuration!
 The GPIO pins used in this script — GPIO 18 and GPIO 19 — are hardcoded in the following line:
