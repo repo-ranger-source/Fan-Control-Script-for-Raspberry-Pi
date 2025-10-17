@@ -8,6 +8,7 @@ This Python script is designed for **Raspberry Pi** systems running Linux with G
 - Raspberry Pi OS or other Linux-based OS with GPIO support
 - Python 3
 - `gpiod` Python library installed:
+
   ```bash
   pip install gpiod
 
@@ -21,6 +22,9 @@ This Python script is designed for **Raspberry Pi** systems running Linux with G
 3. Run the script with root privileges:
    ```bash
    sudo python3 fan_control.py
+
+## Additional:
+Use the systemd service file to automatically start your fan control Python script at system startup, ensuring your cooling system runs without manual input.
    
 ## GPIO Pin Configuration!
 The GPIO pins used in this script — GPIO 18 and GPIO 19 — are hardcoded in the following line:
