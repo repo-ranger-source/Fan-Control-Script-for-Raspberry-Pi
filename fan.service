@@ -1,0 +1,13 @@
+[Unit]
+Description=Fan Control Script
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /path/to/fan_control.py
+Restart=no
+TimeoutStopSec=10
+KillSignal=SIGTERM
+
+[Install]
+WantedBy=default.target
